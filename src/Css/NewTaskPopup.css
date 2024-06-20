@@ -1,0 +1,245 @@
+.header-main-item {
+    width: 100vw;
+    margin: 0 auto !important;
+    /* border-radius: 40px !important; */
+}
+
+.newtask-header-container {
+    display: flex !important;
+    align-items: center !important;
+    flex-direction: row !important;
+    justify-content: space-between !important;
+}
+
+.addtask-input-container {
+    display: flex !important;
+    flex-direction: column !important;
+    justify-content: flex-start !important;
+}
+
+.addtask-input-container input {
+    width: 24.5vw !important;
+    border: none !important;
+    outline: none !important;
+    padding: 10px !important;
+    margin: 10px !important;
+    font-size: 14px !important;
+    font-family: sans-serif !important;
+    font-weight: 300 !important;
+    font-style: normal !important;
+    border: 1px solid #e7e7e7 !important;
+    border-radius: 5px !important;
+}
+
+.people-dropdown-item {
+    padding: 20px 0px !important;
+    margin: 0 auto !important;
+    /* display: flex !important;
+    flex-direction: row !important;
+    justify-content: flex-start !important; */
+}
+
+.all-header-popup-span {
+    color: black !important;
+    font-weight: 500 !important;
+}
+
+.cancel-add-button-container {
+    display: flex !important;
+    justify-content: flex-end !important;
+    gap: 10px !important;
+    padding-bottom: 20px !important;
+    /* padding: 20px !important; */
+}
+
+.button-style-popup {
+    text-transform: capitalize !important;
+}
+
+.status-style-popup {
+    display: flex !important;
+    align-items: center !important;
+    gap: 5px !important
+}
+
+.prio-div-style-high {
+    text-align: left;
+    border-radius: 4px;
+    font-weight: 600 !important;
+    color: #583735 !important;
+}
+
+.prio-div-style-low {
+    text-align: left;
+    border-radius: 4px;
+    font-weight: 600 !important;
+    color: #26488a !important;
+}
+
+.prio-div-style-medium {
+    text-align: left;
+    font-weight: 600 !important;
+    border-radius: 4px;
+    color: #9c5b3a !important;
+}
+
+.nameletter-style-popup {
+    display: flex !important;
+    justify-content: center !important;
+    width: 39px !important;
+    height: 39px !important;
+    background-color: #a2bbff !important;
+    border-radius: 102px;
+    text-align: center;
+    margin-right: 10px !important;
+    flex-direction: column !important;
+}
+
+.people-container-style {
+    padding: 5px !important;
+    border-radius: 5px !important;
+    border: 1px solid #e7e7e7 !important;
+}
+
+.chip-style-person {
+    background-color: #edeef0 !important;
+    color: black !important;
+    border: none !important;
+}
+
+.style-avatar-person {
+    background-color: #a5bfff !important;
+    border-radius: 15px !important;
+}
+
+.close-person-icon {
+    color: #4c4c4c !important;
+    font-size: larger !important;
+    padding: 2px !important
+}
+
+.name-img-people-dropdown {
+    display: flex !important;
+    gap: 12px !important;
+    align-items: center !important;
+}
+/* NewTaskPopup.css */
+
+/* General Styles */
+.header-main-item {
+    padding: 20px;
+}
+
+.newtask-header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.all-header-popup-span {
+    font-size: 20px;
+    font-weight: bold;
+    color: #333;
+}
+
+.addtask-input-container {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-bottom: 15px;
+}
+
+input {
+    width: 100%;
+    padding: 8px;
+    font-size: 16px;
+    border: 1px solid #e7e7e7;
+    border-radius: 4px;
+    outline: none;
+}
+
+.people-dropdown-item {
+    width: 100%;
+}
+
+.people-container-style {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.select-style-dropdown {
+    width: 100%;
+}
+
+.name-img-people-dropdown {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.img-style-assigned {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}
+
+.status-style-popup, .prio-div-style-high, .prio-div-style-medium, .prio-div-style-low {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.status-style-popup span, .prio-div-style-high, .prio-div-style-medium, .prio-div-style-low {
+    font-family: 'Lucida Grande', sans-serif;
+    font-size: 15px;
+}
+
+.prio-div-style-high {
+    color: red;
+}
+
+.prio-div-style-medium {
+    color: orange;
+}
+
+.prio-div-style-low {
+    color: green;
+}
+
+.chip-style-person {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.style-avatar-person {
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+}
+
+.close-person-icon {
+    color: #555;
+}
+
+.cancel-add-button-container {
+    display: flex;
+    justify-content: flex-end;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.button-style-popup {
+    padding: 8px 16px;
+    font-size: 14px;
+    text-transform: none;
+    border-radius: 4px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+}
+
+.button-style-popup:hover {
+    background-color: #0056b3;
+}

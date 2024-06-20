@@ -1,0 +1,178 @@
+.subHeader-main-container {
+    margin-top: 10px !important;
+    display: flex !important;
+    align-items: center !important;
+    justify-content: space-between !important;
+}
+
+.subh-board-conatiner {
+    /* display: flex !important; */
+    gap: 30px !important;
+    align-items: center !important;
+    justify-content: center !important;
+}
+
+.subh-dropdown-container {
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    gap: 10px !important
+}
+
+.sub-header-item-classes {
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    gap: 10px !important;
+}
+
+.sub-header-button-style {
+    width: 130px !important;
+    gap: 8px !important;
+}
+
+.subheader-active {
+    position: relative !important;
+}
+
+.subheader-active::after {
+    content: '';
+    position: absolute !important;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    height: 2px;
+    background-color: rgba(14, 58, 139, 1) !important;
+}
+
+.subheader-active span,
+.subheader-active p {
+    color: black !important;
+    cursor: pointer !important;
+    padding-left: 4px !important;
+}
+
+.subheader-not-active span,
+.subheader-not-active p {
+    color: black !important;
+    cursor: pointer !important;
+    padding-left: 4px !important;
+}
+
+.subheader-dropdown-item .demo-simple-select {
+    border: 1px solid #C7C8CC !important;
+    border-radius: 5px !important;
+    /* padding: -5px !important; */
+}
+
+.subheader-dropdown-item select {
+    width: 125px !important;
+    padding: 5px !important;
+    margin: 5px !important;
+}
+
+.subheader-search-container {
+    display: flex !important;
+    align-items: center !important;
+    border: 1px solid #c4c4c4;
+    border-radius: 10px;
+    width: 125px !important;
+    /* padding: 5px !important; */
+    margin: 5px !important;
+    /* padding-top: 5px !important;
+    padding-left: 5px !important; */
+}
+.subheader-search-icon{
+    padding-left: 5px !important;
+}
+.subheader-search-icon span {
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+}
+
+.subheader-search-input-bar input {
+    outline: none !important;
+    border: none !important;
+    width: 50px !important;
+}
+
+.sub-header-button-style {
+    border-radius: 5px !important;
+}
+
+.border-icon-style {
+    border: 1px solid #c4c4c4 !important;
+    padding: 3px !important;
+    border-radius: 10px !important;
+    display: flex !important;
+    align-items: center !important;
+}
+
+.select-style-dropdow .css-11u53oe-MuiSelect-select-MuiInputBase-input-MuiOutlinedInput-input {
+    width: 250px !important;
+    border-radius: 20px !important;
+}
+
+.menu-style {
+    display: flex !important;
+    flex-direction: column !important;
+}
+
+.menu-table-icon-style {
+    display: flex !important;
+    align-items: center !important;
+    gap: 5px !important;
+    justify-content: flex-start !important;
+}
+
+.menu-span-bottom-style {
+    /* padding-left: 30px !important; */
+    font-size: small !important;
+}
+
+.menu-hide-column {
+    padding: 10px !important;
+    display: flex !important;
+    align-items: center !important;
+    justify-content: space-between !important;
+    font-size: medium !important;
+    gap: 130px !important;
+}
+
+
+.first-item-menu-hide-column {
+    display: flex !important;
+    align-items: center !important;
+    gap: 15px !important
+}
+
+
+.checkbox-hide-column {
+    color: blue !important;
+    font-size: larger !important;
+}
+
+.appicon-hide-column {
+    color: grey !important;
+    font-size: larger !important;
+    /* text-align: right !important; */
+}
+
+.typograph-style-hide-column {
+    color: black !important;
+    font-size: 16px !important;
+    font-weight: 600 !important;
+}
+
+.button-save-hide-column {
+    background-color: rgb(53, 102, 247) !important;
+    width: 100px !important;
+    margin: 9px !important;
+    border-radius: 11px !important;
+    outline: none !important;
+    border: none !important;
+    height: 38px !important;
+    color: white !important;
+    cursor: pointer !important;
+}

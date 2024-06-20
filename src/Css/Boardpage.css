@@ -1,0 +1,188 @@
+.header-status-name-style-item-done {
+    display: flex !important;
+    background-color: #E8EFFD !important;
+    padding: 20px !important;
+    flex-grow: 1 !important;
+    gap: 10px !important;
+    border-radius: 10px !important;
+    flex-direction: column !important;
+    margin-top: 10px !important;
+}
+
+.header-status-name-style-item-progress {
+    background-color: #E8EFFD !important;
+    padding: 20px !important;
+    flex-grow: 1 !important;
+    gap: 10px !important;
+    border-radius: 10px !important;
+    flex-direction: column !important;
+    margin-top: 10px !important;
+}
+
+.header-status-name-style-item-started {
+    background-color: #E8EFFD !important;
+    padding: 20px !important;
+    flex-grow: 1 !important;
+    gap: 10px !important;
+    border-radius: 10px !important;
+    flex-direction: column !important;
+    margin-top: 10px !important;
+}
+
+.item-count-status-style {
+    background-color: white !important;
+    padding: 5px !important;
+    border-radius: 10px !important;
+    display: flex !important;
+    justify-content: flex-start !important;
+    align-items: center !important;
+    width: 100%;
+}
+
+.number-count-item-done {
+    width: 20px !important;
+    height: 20px !important;
+    background-color: #e4f5ef !important;
+    color: #77a495 !important;
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    border-radius: 5px !important;
+}
+
+.number-count-item-progress {
+    width: 20px !important;
+    height: 20px !important;
+    background-color: #e3eafe !important;
+    color: blue !important;
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    border-radius: 5px !important;
+}
+
+.number-count-item-not-started {
+    width: 20px !important;
+    height: 20px !important;
+    background-color: #eff1f5 !important;
+    color: grey !important;
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    border-radius: 5px !important;
+}
+
+.main-done-container {
+    width: 100% !important;
+    margin: 0 auto !important;
+    display: flex !important;
+    flex-direction: column !important;
+    gap: 10px !important;
+    flex-grow: 1 !important;
+}
+
+.priority-div-style-high {
+    width: 60px !important;
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    height: 24px !important;
+    background-color: #e7a29d !important;
+    text-align: center;
+    border-radius: 4px;
+    color: #583735;
+    font-weight: 600 !important;
+}
+
+.priority-div-style-low {
+    width: 60px !important;
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    height: 24px !important;
+    background-color: #c7ccd8 !important;
+    text-align: center;
+    border-radius: 4px;
+    color: #26488a;
+    font-weight: 600 !important;
+}
+
+.priority-div-style-medium {
+    width: 65px !important;
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    height: 24px !important;
+    background-color: #d9d1c5 !important;
+    text-align: center;
+    border-radius: 4px;
+    color: #9c5b3a;
+    font-weight: 600 !important;
+}
+
+.main-container-task {
+    background-color: white !important;
+    padding: 10px !important;
+    display: flex !important;
+    flex-direction: column !important;
+    border-radius: 10px !important;
+}
+
+.item-count-container-style {
+    display: flex !important;
+    align-items: center !important;
+    justify-content: space-between !important;
+    padding: 15px 20px !important;
+}
+
+.span-icon-item {
+    display: flex !important;
+    align-items: center !important;
+    gap: 5px !important;
+}
+
+/* 
+.header-status-name-style-item-done,
+.header-status-name-style-item-progress,
+.header-status-name-style-item-started {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    margin: 5px;
+}
+
+.main-done-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.main-container-task {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 10px;
+    background-color: #fff;
+}
+
+.item-count-status-style {
+    margin-bottom: 10px;
+}
+
+.priority-div-style-high {
+    color: red;
+}
+
+.priority-div-style-medium {
+    color: orange;
+}
+
+.priority-div-style-low {
+    color: green;
+}
+
+.img-style-assigned {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    margin-right: 5px;
+} */
